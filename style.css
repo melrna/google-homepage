@@ -1,0 +1,136 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+background-color:white;
+font-family: Arial,sans-serif;
+color:#777777;
+margin: 0 0 100px; /* bottom = footer height */
+}
+
+a {text-decoration:none;
+padding: 7px; text-align: center;}
+
+a:hover{text-decoration:underline;}
+a:visited{color:#777777;}
+
+/*The Head of the Beast*/
+/*Old code! Learn from your mistakes!
+.header{
+	z-index: 1;
+	float:right;
+	text-align: center;
+	font-size:12px;
+	margin-top:8px;
+}
+
+#board,#bell,#plus,#userpic{
+	vertical-align: middle;
+	width:30px; height:30px; 
+	display:inline-block;}
+#board{	background-image: url('images/board.png');}
+#board:hover{background-image: url('images/boardh.png');}
+
+#bell{	background-image: url('images/bell.png');}
+#bell:hover{background-image: url('images/bellh.png');}
+
+#plus{font-size: 24px;background-color:#F2F2F2;top:0px; }
+
+#userpic{border-radius:100%;width:32px; height:32px; }
+*/
+
+.header{
+list-style-type:none;
+margin: 10px 10px auto;
+padding:0;
+z-index: 1;
+float:right;
+font-size:12px;}
+
+li{display:inline;}
+
+#board,#bell,#plus,#userpic{
+	vertical-align: middle;
+	width:30px; height:30px; 
+	display:inline-block;}
+#board{	background-image: url('images/board.png');}
+#board:hover{background-image: url('images/boardh.png');}
+
+#bell{	background-image: url('images/bell.png');}
+#bell:hover{background-image: url('images/bellh.png');}
+
+#plus{font-size: 24px;background-color:#F2F2F2;top:0px; }
+
+#userpic{border-radius:100%;width:32px; height:32px; }
+
+/*The Belly of the Beast*/
+.search{
+	width:40%;
+	margin: 0px auto 0px auto;
+	padding-top: 180px;
+
+
+}
+
+#logo{
+width:270px;
+left:25%;
+margin:auto;
+display:block
+}
+
+strong
+{position:relative;
+left:352px;
+top:-23px;}
+
+
+input[type=text]{
+	padding:5px;
+	border:1px solid #999999;
+	width:100%;
+}
+input[type=text]:hover{border:1px solid #4D90FE;}
+
+input[type=submit]{
+	border-radius: 2px;
+	padding:5px;
+	background-color:#F2F2F2;
+	border:1px solid #999999;
+	font-size: 11px;
+	font-weight:bold;
+	width:120px;
+	text-align: center;
+	text-decoration: none;
+	font-family: Arial,sans-serif;
+	color:#777777;
+}
+
+input[type=submit]:hover{border:1px solid #4D90FE;}
+
+#lefty {margin: auto auto auto 26%;float:left;}
+#righty {margin: auto 26% auto auto;float:right;}
+
+
+/*The Tail of the Beast*/
+.footer{
+	background-color: #F2F2F2;
+	height: 40px;
+	text-align: center;
+	font-size:12px;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+
+#left{float:left; margin-left:10px;margin-top:10px;}
+#right{float:right; margin-right:10px;margin-top:10px;}
+
+.nopage{width:100%;margin:auto;text-align: center;}
+
+
+
